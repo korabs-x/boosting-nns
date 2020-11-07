@@ -2,13 +2,13 @@
 A simple model for MNIST using boosting during training significantly outperforms the equivalent model trained normally in accuracy, but performs worse at minimising the loss.
 
 ### Accuracy
-[images/accuracy.png]
+![accuracy](images/accuracy.png)
 
 ### Loss
-[images/loss.png]
+![loss](images/loss.png)
 
 ### Distribution of number of times each data point is used during training
-[images/times_used.png]
+![Times used](images/times_used.png)
 
 ## Approach
 Instead of using all data points in each training epoch, we always train on the ones with the previously highest loss. 
