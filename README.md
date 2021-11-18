@@ -1,3 +1,5 @@
+Disclaimer: While the approach seemed to work for MNIST, I couldn't improve the performance of other NNs with this approach.
+
 # Boosting Neural Networks
 A simple model for MNIST using boosting during training significantly outperforms the equivalent model trained normally in accuracy, but performs worse at minimising the loss.
 
